@@ -16,10 +16,41 @@
   --gray-400: #878EA1;
   --gray-500: #C0C4CE;
   --gray-600: #E2E4E9;
+
+  --font-family-primary: "asap", "sans-serife";
+  --title-lg: 700 56px/120% var(--font-family-primary);
+  --title-md: 700 24px/120% var(--font-family-primary);
+  --title-sm: 700 16px/120% var(--font-family-primary);
+
+  --font-family-secondary: "Inconsolata", "sans-serife";
+  --name: 300 18px/140% var(--font-family-secondary);
+  --subtitle: 400 20px/160% var(--font-family-secondary);
+
+
+  --font-family-tertiary: "Maven Pro", "sans-serif";
+  --name-secondary: 300 16px/140% var(--font-family-tertiary);
+  --Text-md-secondary: 400 16px/140% var(--font-family-tertiary);
+  --text-sm-secondary: 400 14px/140% var(--font-family-tertiary);
+
+
 }
 
 body {
+
   color: var(--gray-600);
   background-color: var(--gray-300);
 
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  color: var(--blue);
+}
+
+h1 h2 h3 {
+  font: inherit;
 }
