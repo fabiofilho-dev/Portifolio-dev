@@ -1,0 +1,27 @@
+body {
+  height: 3088px;
+  width: 1526px;
+  margin: 80px;
+
+}
+
+.container {
+  background-image: url(../Assets/image/Background_Intro.png);
+  width: 1550px;
+  height: 750px;
+  background-size: cover;
+  display: grid;
+
+}
+
+.info {
+  width: 1040px;
+  height: 447px;
+  text-align: center;
+  border: solid;
+  margin: 250px;
+  padding: 120px;
+
+
+
+}
