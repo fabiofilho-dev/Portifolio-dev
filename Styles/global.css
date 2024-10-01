@@ -24,7 +24,7 @@
 
   --font-family-secondary: "Inconsolata", "sans-serife";
   --name: 300 18px/140% var(--font-family-secondary);
-  --subtitle: 400 20px/160% var(--font-family-secondary);
+  --subtitle: 400 20px/120% var(--font-family-secondary);
 
 
   --font-family-tertiary: "Maven Pro", "sans-serif";

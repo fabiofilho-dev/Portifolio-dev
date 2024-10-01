@@ -1,27 +1,196 @@
-body {
-  height: 3088px;
-  width: 1526px;
-  margin: 80px;
-
-}
-
-.container {
+#intro {
+  width: 1366px;
+  height: 850px;
   background-image: url(../Assets/image/Background_Intro.png);
-  width: 1550px;
-  height: 750px;
   background-size: cover;
-  display: grid;
 
 }
+
+
+
+
+
+
+
 
 .info {
   width: 1040px;
   height: 447px;
-  text-align: center;
-  border: solid;
-  margin: 250px;
-  padding: 120px;
+  position: absolute;
+  left: 180px;
+  top: 120px;
+  /* border: solid 5px blue; */
+
+}
+
+.cabecalho {
+  width: 680px;
+  height: 307px;
+  /* border: solid 5px red; */
+  margin: 0 180px 120px;
+
+
+}
+
+.avatar {
+  margin: 0 244px 56px 284px;
+}
+
+.text {
+  width: 680px;
+  height: 159px;
+  display: grid;
+  row-gap: 20px;
+
+
+  .nome {
+
+    margin-left: 120px;
+
+    font: var(--subtitle);
+
+    .martina {
+      color: var(--red);
+
+    }
+  }
+
+  .cargo {
+    font: var(--title-lg);
+    margin-left: 19px;
+
+  }
+
+  .paragrafo {
+    font: var(--text-sm-secondary);
+  }
+}
+
+.skills {
+  margin-top: 90px;
+  gap: 16px;
+  border: solid 10px;
+  font-size: 18px;
+
+
+  .git {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 11px;
+    background-color: var(--gray-300);
+    padding: 16px 35px;
+    border-radius: 999px;
+    align-items: center;
 
 
 
+
+  }
+
+  .html {
+    display: grid;
+    align-items: center;
+    grid-template-columns: auto auto;
+    justify-content: left;
+    gap: 11px;
+    background-color: var(--gray-300);
+    padding: 16px 29px;
+    border-radius: 999px;
+
+  }
+
+
+  .css {
+    display: grid;
+    align-items: center;
+    grid-template-columns: auto auto;
+    justify-content: left;
+    gap: 8px;
+    background-color: var(--gray-300);
+    border-radius: 999px;
+    padding: 9px 45px;
+
+  }
+
+  .js {
+    display: grid;
+    align-items: center;
+    grid-template-columns: auto auto;
+    justify-content: left;
+    gap: 11px;
+    background-color: var(--gray-300);
+    border-radius: 999px;
+    padding: 8px 19px;
+
+
+  }
+
+  .react {
+    display: grid;
+    display: grid;
+    align-items: center;
+    grid-template-columns: auto auto;
+    justify-content: left;
+    gap: 11px;
+    background-color: var(--gray-300);
+    border-radius: 999px;
+    padding: 8px 35px;
+
+
+  }
+
+  .node {
+    display: grid;
+    display: grid;
+    align-items: center;
+    grid-template-columns: auto auto;
+    justify-content: left;
+    gap: 11px;
+    background-color: var(--gray-300);
+    border-radius: 999px;
+    padding: 8px 28px;
+
+
+  }
+
+
+  .Vector {
+    grid-row: 2;
+    margin: 120px 492px 50px;
+
+  }
+}
+
+.cabecalho {
+  : 0 180px 120px 180px;
+
+}
+
+
+.title {
+  margin-top: 168px 180px 120px 180px;
+}
+
+.nome {
+  font: var(--subtitle);
+
+}
+
+.cargo {
+  font: var(--title-lg);
+}
+
+.paragrafo {
+  font: var(--text-sm-secondary);
+  margin: 20px;
+}
+
+.skills {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(1px, 1fr));
+
+
+  margin-top: 80px 0 0 0;
+  border: 16px;
+  padding: 16px;
 }
