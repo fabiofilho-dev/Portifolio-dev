@@ -1,0 +1,28 @@
+#projects {
+  height: 917px;
+  width: 1366px;
+  background-color: var(--gray-200);
+}
+
+.quadro {
+  width: 1040px;
+  height: 584px;
+}
+
+.header {
+  text-align: center;
+  row-gap: 8px;
+
+  margin-bottom: 72px;
+
+  .Red {
+    font: var(--subtitle);
+    color: #E3646E;
+  }
+
+  h1 {
+    font: var(--title-md);
+  }
+
+
+}

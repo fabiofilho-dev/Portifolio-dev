@@ -1,0 +1,52 @@
+/* utillity-first*/
+
+.grid {
+  display: grid;
+}
+
+.grid-flow-col {
+  grid-auto-flow: column;
+}
+
+.grid-cols-2 {
+  grid-template-columns: 1fr 1fr;
+}
+
+.grid-cols-3 {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.gap-20 {
+  gap: 20px;
+}
+
+.gap-28 {
+  gap: 28px;
+}
+
+.fundo {
+  background-color: var(--gray-300);
+  border-radius: 10px;
+}
+
+.margin {
+  margin: auto;
+}
+
+.img {
+  width: 300px;
+  height: 150px;
+  border-radius: 14px;
+  margin-left: 14px;
+  margin-top: 15px;
+}
+
+.h2-main {
+  font: var(--title-sm);
+  margin: 20px 12px 0 16px;
+}
+
+.p-main {
+  font: var(--text-sm-secondary);
+  margin: 0px 16px 21px 16px;
+}
