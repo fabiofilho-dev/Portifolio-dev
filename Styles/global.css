@@ -29,7 +29,7 @@
 
   --font-family-tertiary: "Maven Pro", "sans-serif";
   --name-secondary: 300 16px/140% var(--font-family-tertiary);
-  --Text-md-secondary: 400 16px/140% var(--font-family-tertiary);
+  --text-md-secondary: 400 16px/140% var(--font-family-tertiary);
   --text-sm-secondary: 400 14px/140% var(--font-family-tertiary);
 
 
