@@ -16,6 +16,10 @@
   grid-template-columns: 1fr 1fr 1fr;
 }
 
+.gap-8 {
+  gap: 8px;
+}
+
 .gap-20 {
   gap: 20px;
 }
@@ -49,4 +53,61 @@
 .p-main {
   font: var(--text-sm-secondary);
   margin: 0px 16px 21px 16px;
+}
+
+.red {
+  color: #E3646E;
+  ;
+}
+
+.padding-25 {
+  padding: 25px;
+}
+
+.padding-20 {
+  padding: 20px;
+}
+
+.centralizar {
+
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  row-gap: 8px;
+
+}
+
+.m-top-8-fonte {
+  margin-top: 8px;
+  font: var(--font-family-tertiary);
+  color: var(--gray-500);
+}
+
+.margin-top-88 {
+  margin-top: 88px;
+}
+
+.margin-top-56 {
+  margin-top: 56px;
+}
+
+.margin-56 {
+  margin-top: 56px;
+}
+
+.services {
+  height: 380px;
+  width: 1366px;
+  background-color: var(--gray-200);
+}
+
+.hw {
+  height: 155px;
+  width: 888px;
+  margin-left: 239px;
+}
+
+.border {
+  border: solid #292C34 2px;
+  border-radius: 15px;
 }
